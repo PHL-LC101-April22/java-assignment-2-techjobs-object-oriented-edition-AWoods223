@@ -6,7 +6,7 @@ public class Job {
 
     private int id;
     private static int nextId = 1;
-    //private String value;
+    private String value;
 
     private String name;
     private Employer employer;
@@ -131,4 +131,11 @@ public class Job {
     }
 
 
+    public String getValue() {
+        return value;
+    }
+
+    public void setValue(String value) {
+        this.value = value;
+    }
 }
